@@ -484,8 +484,7 @@ ul {
 }
 
 .home_banner_area {
-  background: url("/assets/home/img/banner/GamingPC_Banner_800x320.jpg")
-    no-repeat center bottom;
+  background: url("") no-repeat center bottom;
   background-size: cover;
   position: relative;
   z-index: 1;

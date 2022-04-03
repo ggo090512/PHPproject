@@ -4,7 +4,7 @@
       <div class="col-lg-4 col-md-6 single-footer-widget">
         <h4>Về chúng tôi</h4>
         <ul>
-          <li><a href="#">CƠ SỞ SẢN XUẤT ĐÀN GUITAR PHÁT QUẬN 12</a></li>
+          <li><a href="#">CÔNG TY TNHH THƯƠNG MẠI TOCO-TOCO</a></li>
           <li><a href="#">
               <p><i class="fa fa-map-marker"></i> Đường TCH10, phường Tân Chánh Hiệp - Quận 12 - TP Hồ Chí Minh</p>
             </a></li>
@@ -12,7 +12,7 @@
               <p><i class="fa fa-phone"></i> 0336 418 838 - 09 7830 3446</p>
             </a></li>
           <li><a href="#">
-              <p><i class="fa fa-envelope"></i> predator@gmail.com</p>
+              <p><i class="fa fa-envelope"></i> long7400@gmail.com</p>
             </a></li>
         </ul>
       </div>
