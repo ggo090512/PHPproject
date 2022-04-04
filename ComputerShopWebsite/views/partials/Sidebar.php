@@ -1,11 +1,11 @@
-<aside class="sidebar">
+<aside style="background-color: #008000 !important" class="sidebar">
     <div class="sidebar-start">
         <div class="sidebar-head">
             <a href="/" class="logo-wrapper" title="Home">
                 <span class="sr-only">Home</span>
                 <span class="icon logo" aria-hidden="true"></span>
                 <div class="logo-text">
-                    <span class="logo-title">BÁN ĐÀN</span>
+                    <span class="logo-title">Toco-Toco</span>
                     <span class="logo-subtitle">Quản lý</span>
                 </div>
             </a>

@@ -26,7 +26,7 @@
 						<p class="form-label">Mật khẩu cũ</p>
 						<input class="form-input" name='oldpass' placeholder="Mật khẩu cũ..." >
 						 <input type="hidden" class="form-control" id="" placeholder="" name="id"
-    value="<?= $_SESSION['auth']['id'] ?>">
+    							value="<?= $_SESSION['auth']['id'] ?>">
 					</label>
 				</div>
 				<div class="form-group">

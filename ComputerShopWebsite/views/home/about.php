@@ -6,7 +6,7 @@ require_once('views/partials/Headeruser.php');
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-lg-6">
-			<div class="banner-frame"> <img class="img-fluid" src="assets/image/about.png" style="height: 570px;" alt="">
+			<div class="banner-frame"> <img class="img-fluid" src="assets/image/backgroundPC.jpg" style="height: 570px;" alt="">
 			</div>
 		</div>
 		<div class="col-lg-6">

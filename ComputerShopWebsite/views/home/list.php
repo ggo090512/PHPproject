@@ -5,13 +5,14 @@ require_once('views/partials/Headeruser.php');
   <!--================Header Menu Area =================-->
 
   <!--================Home Banner Area =================-->
-  <section class="home_banner_area mb-40">
+  <section style="background: url(assets/image/GamingPCbanner.jpg) no-repeat center bottom; 
+  background-size: cover" class="home_banner_area mb-40">
     <div class="banner_inner d-flex align-items-center">
       <div class="container">
         <div class="banner_content row">
           <div class="col-lg-12">
             
-            <h3><span>TocoToco</span> </h3>
+            <h3><span>Toco-Toco</span> </h3>
             <h2 style="color:white">  Tại sao nên mua các thiết bị của chúng tôi</h2>
             <a class="main_btn mt-40" href="index.php?mod=home&act=about">Xem thêm</a>
           </div>
