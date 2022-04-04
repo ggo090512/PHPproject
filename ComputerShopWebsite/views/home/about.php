@@ -14,14 +14,14 @@ require_once('views/partials/Headeruser.php');
 			<div class="entry-content">
 				<h2><span style="color:#008000;"><strong><span style="font-size:18px;">Laptop: </span></strong></span></h2>
 				<p><span style="font-size:18px;">Chúng tôi có <a href="https://www.acer.com/ac/vi/VN/content/home" target="_blank"><span style="color:#0033ff;">Acer</span></a> (Đài Loan), <a href="https://www.asus.com/vn/" target="_blank"><span style="color:#0033ff;">Asus</span></a> (Đài Loan), <a href="https://vn.msi.com/" target="_blank"><span style="color:#0033ff;">MSI</span></a> (Đài Loan), <a href="https://www.hp.com/vn-vi/gaming/omen.html#modal=overlay-laptops" target="_blank"><span style="color:#0033ff;">HP</span></a> (Hoa Kỳ), <a href="https://www.gigabyte.com/Laptop" target="_blank"><span style="color:#0033ff;">Gigabyte</span></a> (Đài Loan).</span></p>
-				<h2><span style="color:#008000;"><strong><span style="font-size:18px;">PC Gaming - Văn phòng </span></strong></span></h2>
-				<p><span style="font-size:18px;">Chúng tôi có <a href="https://mainguyenmusic.com/dan-guitar-martin" target="_blank"><span style="color:#0033ff;">Martin</span></a> (Mỹ), <a href="https://mainguyenmusic.com/dan-guitar-taylor" target="_blank"><span style="color:#0033ff;">Taylor</span></a> (Mỹ), <a href="https://mainguyenmusic.com/dan-guitar-cordoba" target="_blank"><span style="color:#0033ff;">Cordoba</span></a> (Tây Ban Nha), <a href="https://mainguyenmusic.com/dan-guitar-epiphone" target="_blank"><span style="color:#0033ff;">Epiphone</span></a> (Mỹ), <a href="https://mainguyenmusic.com/dan-guitar-ibanez" target="_blank"><span style="color:#0033ff;">Ibanez </span></a>(Nhật Bản), <a href="https://mainguyenmusic.com/dan-guitar-cort" target="_blank"><span style="color:#0033ff;">Cort</span></a> (Hàn Quốc), <a href="https://mainguyenmusic.com/dan-guitar-takamine" target="_blank"><span style="color:#0033ff;">Takamine</span></a>, <a href="https://mainguyenmusic.com/dan-guitar-yamaha" target="_blank"><span style="color:#0033ff;">Yamaha</span></a> (Nhật Bản)...</span></p>
+				<h2><span style="color:#008000;"><strong><span style="font-size:18px;">PC Gaming - Văn phòng: </span></strong></span></h2>
+				<p><span style="font-size:18px;">Chúng tôi có đa dạng các loại PC từ cấu hình tầm trung đến cấu hình siêu cao cấp</span></p>
 				
 				<h2><span style="color:#008000;"><strong><span style="font-size:18px;">Phụ kiện, linh kiện: </span></strong></span></h2>
-				<p><span style="font-size:18px;">Đa dạng các thương hiệu đến từ Mỹ, Nhật&nbsp;như D'Addario, Elixir, Keyser, Gibson, Ernie Ball, Hosa, Musedo, Ibanez, Martin....</span></p>
-				<p><strong><span style="font-size:18px;">Tất cả sản phẩm tại PREDATOR đều MỚI 100%, CHÍNH HÃNG, ĐẦY ĐỦ GIẤY TỜ.</span></strong></p>
-				<h2><span style="font-size:18px;">PREDATOR cam kết:</span></h2>
-				<p><span style="font-size:18px;"><span style="color:#008000;"><strong>- SẢM PHẨM CHÍNH HÃNG</strong></span> (fake hoàn 300% tiền trong bất cứ thời điểm nào)</span></p>
+				<p><span style="font-size:18px;">Đa dạng các thương hiệu đến từ Mỹ, Đài Loan&nbsp;như Intel, Gigabyte, Corsair, Samsung, Cooler Master, ....</span></p>
+				<p><strong><span style="font-size:18px;">Tất cả sản phẩm tại TocoToco đều MỚI 100%, CHÍNH HÃNG.</span></strong></p>
+				<h2><span style="font-size:18px;">TocoToco cam kết:</span></h2>
+				<p><span style="font-size:18px;"><span style="color:#008000;"><strong>- SẢM PHẨM CHÍNH HÃNG</strong></span> (fake hoàn 100% tiền trong bất cứ thời điểm nào)</span></p>
 			
 			</div>
 			
