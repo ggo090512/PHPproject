@@ -38,15 +38,13 @@
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         Bản quyền &copy;<script>
           document.write(new Date().getFullYear());
-        </script> Tất cả các quyền | Mẫu này được tạo bởi <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"> Predator</a>
+        </script> Tất cả các quyền | Mẫu này được tạo bởi <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"> Nhóm10</a>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
 
       <div class="col-lg-4 col-md-12 footer-social">
-        <a href="https://www.facebook.com/vobachtho"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.facebook.com/hieumd090500"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-dribbble"></i></a>
-        <a href="#"><i class="fa fa-behance"></i></a>
       </div>
     </div>
   </div>
