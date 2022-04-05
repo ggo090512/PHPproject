@@ -55,10 +55,6 @@ class OrderController extends AdminController
         $Order = $OrderModel->find($id);
         $OrderDetailModel = new OrderDetail();
         $ListOrderDetails = $OrderDetailModel->getOrderDetailbyid($id);
-        // 	echo "<pre>";
-        // print_r($ListOrderDetails);
-        // echo "</pre>";
-        // die();
         require_once('Views/orders/detail.php');
     }
 

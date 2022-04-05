@@ -208,16 +208,6 @@ class HomeController extends BaseController
 			$success = $OrderDetailModel->create($item[$i]);
 		}
 
-		// foreach ($item as $key=> $value){
-		// 	$item['san'][]=$value['product_name'];
-		// }
-		//	$item['order_id']=$LastId;
-		// echo "<pre>";
-		// print_r($item);
-		// echo "</pre>";
-		// die();
-		// $OrderDetailModel = new Orderdetail();
-		// $OrderDetailModel->create($item);
 		unset($_SESSION['carts']);
 		if ($success) {
 			setcookie('success', 'Thêm mới thành công', time() + 3);

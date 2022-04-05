@@ -59,8 +59,6 @@ class Order extends Query
     public function find($id)
 	{
 		$orders = $this->getId($this->table, $id);
-		// var_dump($products);
-		// die();
 		return $orders;
 	}
 
