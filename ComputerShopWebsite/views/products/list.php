@@ -2,7 +2,7 @@
 require_once('views/partials/Header.php');
 ?>
 <?php
-require_once('views/partials/Sidebar.php');
+require_once('views/partials/SidebarAdmin.php');
 ?>
 <?php
 require_once('views/partials/Footertop.php');
@@ -34,7 +34,6 @@ require_once('views/partials/Footertop.php');
 								<th>Giá khuyến mãi</th>
 								<th>Số lượng</th>
 								<th>Người tạo</th>
-								<th>Trạng thái</th>
 								<th>Ngày tạo</th>
 								<th>Hành động</th>
 							</tr>
@@ -60,7 +59,6 @@ require_once('views/partials/Footertop.php');
 
 									<td><?= $product['amount'] ?></td>
 									<td><?= $product['username'] ?></td>
-									<td><?= $product['status'] ?></td>
 									<td><?= date('d/m/Y', strtotime($product['create_at'])) ?></td>
 
 									<td>

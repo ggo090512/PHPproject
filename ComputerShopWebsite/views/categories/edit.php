@@ -2,7 +2,7 @@
 require_once('views/partials/Header.php');
 ?>
 <?php 
-require_once('views/partials/Sidebar.php');
+require_once('views/partials/SidebarAdmin.php');
 ?>
 <?php 
 require_once('views/partials/Footertop.php');

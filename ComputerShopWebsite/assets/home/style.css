@@ -231,7 +231,7 @@ ul {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-  color: #008000;
+  color: #2a2a2a;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -302,7 +302,7 @@ ul {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: #008000;
+  background: #2a2a2a;
   color: #fff;
 }
 

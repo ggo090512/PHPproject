@@ -2,7 +2,7 @@
 require_once('views/partials/Header.php');
 ?>
 <?php
-require_once('views/partials/Sidebar.php');
+require_once('views/partials/SidebarAdmin.php');
 ?>
 
 <?php
@@ -26,17 +26,14 @@ require_once('views/partials/Footertop.php');
 					<table class="posts-table">
 						<thead>
 							<tr class="users-table-info">
-
-								<th>Tên danh mục</th>
-								<th>Trạng thái</th>
+								<th>Tên loại sản phẩm</th>
 								<th>Hành động</th>
 							</tr>
 						</thead>
 						<tbody>
 							<?php foreach ($categories as $category) { ?>
 								<tr>
-									<td><span class="badge-pending"><a href=""> <?= $category['category_name'] ?></a></span></td>
-									<td><?= $category['status'] ?></td>
+									<td ><span class="badge-pending"><a><?= $category['category_name'] ?></a></span></td>
 									<td>
 										<span class="p-relative">
 											<button class="dropdown-btn transparent-btn" type="button" title="More info">

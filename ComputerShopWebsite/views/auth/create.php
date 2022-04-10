@@ -2,9 +2,8 @@
 require_once('views/partials/Header.php');
 ?>
 <?php 
-require_once('views/partials/Sidebar.php');
+require_once('views/partials/SidebarAdmin.php');
 ?>
-
 <?php 
 require_once('views/partials/Footertop.php');
 ?>
@@ -33,7 +32,6 @@ require_once('views/partials/Footertop.php');
 				<select  class="form-input" name="role_id">
 					<option value="0">Admin</option>
 					<option value="1">Nhân viên</option>
-					<option value="2">Khách</option>
 				</select>
 			</label>
 		</div>
@@ -47,7 +45,7 @@ require_once('views/partials/Footertop.php');
 		
 		<div class="form-group">
 			<label class="form-label-wrapper">
-				<p class="form-label">Sớ điện thoại</p>
+				<p class="form-label">Số điện thoại</p>
 				<input class="form-input" type="number" placeholder="Số điện thoại..." name="sdt" required>
 			</label>
 		</div>

@@ -2,7 +2,7 @@
 require_once('views/partials/Header.php');
 ?>
 <?php 
-require_once('views/partials/Sidebar.php');
+require_once('views/partials/SidebarAdmin.php');
 ?>
 <?php 
 require_once('views/partials/Footertop.php');
@@ -34,7 +34,6 @@ require_once('views/partials/Footertop.php');
 								<th>Email</th>
 								<th>STĐ</th>
 								<th>Quyền</th>
-								<th>Trạng thái</th>
 								<th>Hành động</th>
 							</tr>
 						</thead>
@@ -50,7 +49,6 @@ require_once('views/partials/Footertop.php');
 										<td><?= $user['email'] ?></td>
 										<td><?= $user['sdt'] ?></td>
 										<td><?= $user['role_id'] ?></td>
-										<td><?= $user['status']?></td>
 										<td>
 											<span class="p-relative">
 												<button class="dropdown-btn transparent-btn" type="button" title="More info">
@@ -58,7 +56,6 @@ require_once('views/partials/Footertop.php');
 													<i data-feather="more-horizontal" aria-hidden="true"></i>
 												</button>
 												<ul class="users-item-dropdown dropdown">
-													<li><a href="index.php?mod=user&act=edit&id=<?= $user['id'] ?>">Sửa</a></li>
 													<li ><a  href="index.php?mod=user&act=delete&id=<?= $user['id'] ?>">Xóa</a></li>
 												</ul>
 											</span>

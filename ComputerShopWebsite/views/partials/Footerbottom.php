@@ -2,7 +2,7 @@
 <footer class="footer">
 	<div class="container footer--flex">
 		<div class="footer-start">
-			<p>2022 © Toco-Toco - <a href="https://www.facebook.com/profile.php?id=100010867245928" target="_blank" rel="noopener noreferrer">hoanglongpc.com</a></p>
+			<p>2022 © Toco-Toco - <a href="" target="_blank" rel="noopener noreferrer">hoanglongpc.com</a></p>
 		</div>
 
 	</div>

@@ -1,7 +1,6 @@
 <?php
 require_once('views/partials/Headeruser.php');
 ?>
-
   <!--================Header Menu Area =================-->
 
   <!--================Home Banner Area =================-->
@@ -21,54 +20,6 @@ require_once('views/partials/Headeruser.php');
     </div>
   </section>
   <!--================End Home Banner Area =================-->
-
-  <!-- Start feature Area -->
-  <section class="feature-area section_gap_bottom_custom">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
-            <a href="#" class="title">
-              <i class="flaticon-money"></i>
-              <h3>Hoàn tiền</h3>
-            </a>
-            <p>Hoàn tiền nếu sản phẩm lỗi</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
-            <a href="#" class="title">
-              <i class="flaticon-truck"></i>
-              <h3>Giao hàng miễn phí</h3>
-            </a>
-            <p>Nhanh chóng toàn vẹn</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
-            <a href="#" class="title">
-              <i class="flaticon-support"></i>
-              <h3>Hỗ trợ mọi lúc</h3>
-            </a>
-            <p>Luôn luôn lắng nghe ý kiến</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
-            <a href="#" class="title">
-              <i class="flaticon-blockchain"></i>
-              <h3>Thanh toán an toàn</h3>
-            </a>
-            <p>Thanh toán nhanh chóng tiện lợi</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End feature Area -->
 
   <!--================ Feature Product Area =================-->
   <section class="feature_product_area section_gap_bottom_custom">
@@ -179,6 +130,54 @@ require_once('views/partials/Headeruser.php');
     </div>
   </section>
   <!--================ End New Product Area =================-->
+
+    <!-- Start feature Area -->
+    <section class="feature-area section_gap_bottom_custom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="single-feature">
+            <a href="#" class="title">
+              <i class="flaticon-money"></i>
+              <h3>Hoàn tiền</h3>
+            </a>
+            <p>Hoàn tiền nếu sản phẩm lỗi</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="single-feature">
+            <a href="#" class="title">
+              <i class="flaticon-truck"></i>
+              <h3>Giao hàng miễn phí</h3>
+            </a>
+            <p>Nhanh chóng toàn vẹn</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="single-feature">
+            <a href="#" class="title">
+              <i class="flaticon-support"></i>
+              <h3>Hỗ trợ mọi lúc</h3>
+            </a>
+            <p>Luôn luôn lắng nghe ý kiến</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="single-feature">
+            <a href="#" class="title">
+              <i class="flaticon-blockchain"></i>
+              <h3>Thanh toán an toàn</h3>
+            </a>
+            <p>Thanh toán nhanh chóng tiện lợi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End feature Area -->
 
   <!--================ Inspired Product Area =================-->
   

@@ -26,9 +26,6 @@
 	<!-- boostrap -->
 	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	 -->
-
-
-
 	<!-- main css -->
 	<link rel="stylesheet" href="assets/home/style.css" />
 	<link rel="stylesheet" href="assets/home/css/responsive.css" />
@@ -40,7 +37,7 @@
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
 
-		<div class="main_menu">
+		<div style="background-color: #80ff00" class="main_menu">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light w-100">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -55,46 +52,34 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
 						<div class="row w-100 mr-0">
-							<div class="col-lg-7 pr-0">
+							<div class="col-lg-5 pr-7">
 								<ul class="nav navbar-nav center_nav pull-right">
-									<li class="nav-item active">
-										<a class="nav-link" href="index.php">Trang chủ</a>
-									</li>
-									<li class="nav-item submenu dropdown">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Danh mục</a>
-										<ul class="dropdown-menu">
-											<?php foreach (listcategories() as $category) { ?>
-												<li class="nav-item">
-													<a class="nav-link" href="index.php?mod=home&act=productbycategory&id=<?= $category['id'] ?>"><?= $category['category_name'] ?></a>
-												</li>
-											<?php } ?>
-
-										</ul>
+									<li class="nav-item">
+										<a style="font-weight: bold !important" class="nav-link" href="index.php">Trang chủ</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="index.php?mod=home&act=listProduct">Sản phẩm</a>
 									</li>
-
-									<li class="nav-item">
-										<a class="nav-link" href="index.php?mod=home&act=about">Giới thiệu</a>
+									<li class="nav-item submenu dropdown">
+											<a href="#" class="nav-link dropdown-toggle ml-1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Đăng nhập/Đăng ký</a>
+											<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a class="nav-link" href="index.php?mod=auth&act=login">Đăng nhập</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="index.php?mod=auth&act=create">Đăng ký</a>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</div>
 
-							<div class="col-lg-5 pr-0">
+							<div class="col-lg-7 pr-0">
 								<ul class="nav navbar-nav navbar-right right_nav pull-right">
 									<li class="nav-item">
-										<!-- <a href="#" class="icons">
-											<i class="ti-search" aria-hidden="true"></i>
-										</a> -->
-										<!-- <form class=" nav-link form-inline my-2 my-lg-0">
-											<input class="form-control mr-sm-2" type="search" placeholder="Search">
-											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-										</form> -->
-
-										<form method="POST" class="example mt-4" action="index.php?mod=home&act=listProductBySearch" style="margin:auto;max-width:300px">
-											<input type="text" placeholder="Tìm sản phẩm..." name="product_name">
-											<button type="submit"><i class="fa fa-search"></i></button>
+										<form method="POST" class="example mt-4 mr-5" action="index.php?mod=home&act=listProductBySearch" style="margin:auto;max-width:300px">
+											<input style="border-radius: 10px 10px 10px 10px !important; width: 255px" type="text" placeholder="Tìm kiếm..." name="product_name">
+											<button style="border-radius: 10px 10px 10px 10px !important" type="submit"><i class="fa fa-search"></i></button>
 										</form>
 									</li>
 
@@ -106,7 +91,7 @@
 
 									<li class="nav-item dropdown submenu ">
 										<a href="#" class=" icons nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-											<i class="ti-user mt-2" aria-hidden="true"></i>
+											<i class="ti-user pr-0 ml-4" aria-hidden="true"></i>
 										</a>
 
 										<ul class="dropdown-menu">
@@ -114,53 +99,35 @@
 												if ($_SESSION['auth']['role_id'] == 2) {
 											?>
 													<li class="nav-item">
-														<a class="nav-link" href="category.html"> <?= $_SESSION['auth']['fullname'] ?></a>
+														<a class="nav-link" href="#">Xin chào <?= $_SESSION['auth']['fullname'] ?></a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link" href="#"> <i class="fas fa-user"> Thông tin</i></a>
-													</li>
-													<li class="nav-item">
-														<a href="index.php?mod=home&act=listOrder&id_user=<?= $_SESSION['auth']['id'] ?>" class="icons">
-														<i class="fa fa-shopping-bag"></i>	Đơn hàng
+														<a class="nav-link" href="index.php?mod=home&act=listOrder&id_user=<?= $_SESSION['auth']['id'] ?>" class="icons">
+														Đơn hàng
 														</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link" href="index.php?mod=auth&act=reset"><i class="fas fa-key"> Đổi mật khẩu</i></a>
+														<a class="nav-link" href="index.php?mod=auth&act=reset">Đổi mật khẩu</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link" href="index.php?mod=auth&act=logoutFrontend"><i class="fa fa-power-off"></i>thoát</a>
+														<a class="nav-link" href="index.php?mod=auth&act=logoutFrontend">Đăng xuất</a>
 													</li>
 												<?php } else { ?>
 													<li class="nav-item">
-														<a class="nav-link" href="category.html"> Chào <?= $_SESSION['auth']['fullname'] ?></a>
+														<a class="nav-link" href="#"> Xin chào <?= $_SESSION['auth']['fullname'] ?></a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link" href="index.php?mod=category&act=index"><i class="fa fa-cogs"></i> Trang quản lý</a>
+														<a class="nav-link" href="index.php?mod=category&act=index">Trang quản lý</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link" href="#"> <i class="fas fa-user"></i> Thông tin</a>
+														<a class="nav-link" href="index.php?mod=auth&act=reset">Đổi mật khẩu</a>
 													</li>
 													<li class="nav-item">
-														<a  class="nav-link" href="index.php?mod=home&act=listOrder&id_user=<?= $_SESSION['auth']['id'] ?>" class="icons">
-														<i class="fa fa-shopping-bag"></i>	Đơn hàng
-														</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link" href="index.php?mod=auth&act=reset"><i class="fas fa-key"></i> Đổi mật khẩu</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link" href="index.php?mod=auth&act=logoutFrontend"> <i class="fa fa-power-off"></i> Thoát</a>
+														<a class="nav-link" href="index.php?mod=auth&act=logoutFrontend">Đăng xuất</a>
 													</li>
 												<?php }
-											} else {
-												?>
-												<li class="nav-item">
-													<a class="nav-link" href="index.php?mod=auth&act=login"> Đăng nhập</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link" href="index.php?mod=auth&act=create">Đăng ký</a>
-												</li>
-											<?php   } ?>
+											} 
+											?>
 										</ul>
 									</li>
 								</ul>

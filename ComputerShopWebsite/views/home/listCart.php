@@ -70,10 +70,11 @@ require_once('views/partials/Headeruser.php');
                                         <td>
 
                                             <input type="hidden" name="soluong[]" value="<?= $value['amount'] ?>">
-
-                                            <a style="margin-right:10px;" href="index.php?mod=home&act=listCart&action=1&msp=<?= $value['id'] ?>" class="btn btn-success">+</a>
-                                            <?= $value['amount'] ?>
                                             <a href="index.php?mod=home&act=listCart&action=2&msp=<?= $value['id'] ?>" style="margin-left:10px;" class="btn btn-primary">-</a>
+                                            
+                                            <?= $value['amount'] ?>
+                                            
+                                            <a style="margin-right:10px;" href="index.php?mod=home&act=listCart&action=1&msp=<?= $value['id'] ?>" class="btn btn-success">+</a>
                                         </td>
                                         <td>
                                             <h5><?= number_format($value['amount'] * $value['promotionalprice']) ?></h5>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Du lịch và khám phá | Đăng ký</title>
+  <title>Đăng ký</title>
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/image/logotitle.png" >
   <!-- Custom styles -->
@@ -18,14 +18,13 @@
   <div class="layer"></div>
   <main class="page-center">
     <article class="sign-up">
-      <h1 class="sign-up__title">Tạo tài khoản</h1>
-      <p class="sign-up__subtitle">Đăng ký để có trải nghiệm tốt nhất!!!</p>
+      <h1 class="sign-up__title">ĐĂNG KÝ</h1>
       <form class="sign-up-form form" action="index.php?mod=auth&act=storeuser" method="POST" role="form" enctype="multipart/form-data">
         <div class="form-group">
           <label class="form-label-wrapper">
             <h1></h1>
             <p class="form-label">Họ và tên</p>
-            <input class="form-input" type="text" placeholder="Tên bạn ơi..." name="fullname" >
+            <input class="form-input" type="text" placeholder="Họ tên..." name="fullname" >
           </label>
         </div>
 
@@ -53,7 +52,7 @@
   <div class="form-group">
        <label class="form-label-wrapper">
         <p class="form-label">Số điện thoại</p>
-        <input class="form-input" type="number" placeholder="Số điện thoại..." name="sdt" >
+        <input class="form-input" type="text" placeholder="Số điện thoại..." name="sdt" >
       </label>
     </div>
 
@@ -66,7 +65,7 @@
 
   <a class="link-info forget-link" href="index.php?mod=auth&act=login">Đã có tài khoản?</a>
 
-  <button type="submit" class="form-btn primary-default-btn transparent-btn">Đăng ký</button>
+  <button style="background-color: #008000" type="submit" class="form-btn primary-default-btn transparent-btn">Đăng ký</button>
 </form>
 </article>
 </main>

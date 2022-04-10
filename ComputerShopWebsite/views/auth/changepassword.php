@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Du lịch và khám phá | Đăng ký</title>
+	<title>Đổi mật khẩu</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/image/logotitle.png" >
 	<!-- Custom styles -->
@@ -24,7 +24,7 @@
 				<div class="form-group">
 					<label class="form-label-wrapper">
 						<p class="form-label">Mật khẩu cũ</p>
-						<input class="form-input" name='oldpass' placeholder="Mật khẩu cũ..." >
+						<input class="form-input" name='oldpass' type='password' placeholder="Mật khẩu cũ..." >
 						 <input type="hidden" class="form-control" id="" placeholder="" name="id"
     							value="<?= $_SESSION['auth']['id'] ?>">
 					</label>
@@ -32,13 +32,13 @@
 				<div class="form-group">
 					<label class="form-label-wrapper">
 						<p class="form-label">Mật khẩu mới</p>
-						<input class="form-input" name="newpass" placeholder="Mật khẩu mới..." >
+						<input class="form-input" name="newpass" type='password' placeholder="Mật khẩu mới..." >
 					</label>
 				</div>
 				<div class="form-group">
 					<label class="form-label-wrapper">
 						<p class="form-label">Xác nhận mật khẩu</p>
-						<input class="form-input" name="confirmpass"  placeholder="Xác nhận mật khẩu..." >
+						<input class="form-input" name="confirmpass" type='password' placeholder="Xác nhận mật khẩu..." >
 					</label>
 				</div>
 				<a class="link-info forget-link" href="index.php?mod=home&act=index">Quay lại?</a>

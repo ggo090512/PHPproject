@@ -65,8 +65,6 @@ class UserController extends AdminController
 		}
 	}
 
-
-
 	public function edit()
 	{
 		$id = $_GET['id'];
@@ -106,5 +104,4 @@ class UserController extends AdminController
 		$this->redirect('index.php?mod=user&act=index');
 	}
 
-	
 }

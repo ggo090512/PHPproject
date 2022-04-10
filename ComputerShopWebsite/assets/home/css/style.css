@@ -204,7 +204,7 @@ ul {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-  color: #71cd14;
+  color: #2a2a2a;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -275,7 +275,7 @@ ul {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: #71cd14;
+  background: #2a2a2a;
   color: #fff;
 }
 
@@ -301,7 +301,7 @@ ul {
 }
 
 .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
-  margin-left: 35px;
+  margin-left: 50px;
 }
 
 @media (max-width: 992px) {
@@ -312,10 +312,10 @@ ul {
   }
   .header_area .navbar .nav.navbar-nav.navbar-right .icons {
     background: #e4e4e4;
-    margin-right: 2px;
-    line-height: 50px;
-    min-width: 50px;
-    min-height: 50px;
+    margin-right: 5px;
+    line-height: 80px;
+    min-width: 80px;
+    min-height: 80px;
   }
 }
 

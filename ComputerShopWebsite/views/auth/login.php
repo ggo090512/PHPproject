@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Du lịch và khám phá | Đăng nhập</title>
+  <title>Đăng nhập</title>
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/image/logotitle.png" />
   <!-- Custom styles -->
@@ -18,19 +18,18 @@
   <div class="layer"></div>
   <main class="page-center">
     <article class="sign-up">
-      <h1 class="sign-up__title">Chào mừng bạn quay lại!</h1>
-      <p class="sign-up__subtitle">Đăng nhập tài khoản của bạn để tiếp tục</p>
+      <h1 class="sign-up__title">ĐĂNG NHẬP</h1>
       <form class="sign-up-form form" method="POST" action="index.php?mod=auth&act=handlelogin">
         <label class="form-label-wrapper">
           <p class="form-label">Email</p>
-          <input id="inputEmail" name="email" class="form-input" type="email" placeholder="Địa chỉ email của bạn..." >
+          <input id="inputEmail" name="email" class="form-input" type="email" placeholder="Email..." >
         </label>
         <label class="form-label-wrapper">
           <p class="form-label">Password</p>
-          <input id="inputPassword" type="password" name="password" class="form-input" type="password" placeholder="Mật khẩu của bạn..." >
+          <input id="inputPassword" type="password" name="password" class="form-input" type="password" placeholder="Mật khẩu..." >
         </label>
-        <a class="link-info forget-link" href="index.php?mod=user&act=create">Tạo tài khoản?</a>
-        <button type="submit" class="form-btn primary-default-btn transparent-btn">Đăng nhập</button>
+        <a class="link-info forget-link" href="index.php?mod=auth&act=create">Tạo tài khoản?</a>
+        <button style="background-color: #008000" type="submit" class="form-btn primary-default-btn transparent-btn">Đăng nhập</button>
       </form>
     </article>
   </main>

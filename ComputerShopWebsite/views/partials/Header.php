@@ -7,13 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TocoToco | Computer Centre</title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/assets/image/desktop.png" >
+  <link rel="shortcut icon" href="/assets/image/desktop.png">
   <!-- Custom styles -->
   <link rel="stylesheet" href="assets/css/style.min.css">
-  <!-- in ra thong báo -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
-
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
   <style>
     .cssli{
@@ -32,9 +28,9 @@
 <!-- ! Body -->
 <a class="skip-link sr-only" href="#skip-target">Skip to content</a>
 <div class="page-flex">
-  <!-- ! Sidebar -->
+<!-- ! Sidebar -->
   
 
-    <!-- ! Main nav -->
+<!-- ! Main nav -->
    
    

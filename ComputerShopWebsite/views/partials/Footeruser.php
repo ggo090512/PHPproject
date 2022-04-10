@@ -31,21 +31,6 @@
         <h4>Bản đồ</h4>
         <div class="textwidget"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2627225393767!2d106.62407961382324!3d10.867611260478007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a1d17ab8e9f%3A0x5a34770171b59150!2zVMOibiBDaMOhbmggSGnhu4dwIDEwLCBUw6JuIENow6FuaCBIaeG7h3AsIFF14bqtbiAxMiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1647225734992!5m2!1svi!2sus" width height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
       </div>
-
-    </div>
-    <div class="footer-bottom row align-items-center">
-      <p class="footer-text m-0 col-lg-8 col-md-12">
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Bản quyền &copy;<script>
-          document.write(new Date().getFullYear());
-        </script> Tất cả các quyền | Mẫu này được tạo bởi <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"> Nhóm10</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
-
-      <div class="col-lg-4 col-md-12 footer-social">
-        <a href="https://www.facebook.com/hieumd090500"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-      </div>
     </div>
   </div>
 </footer>
