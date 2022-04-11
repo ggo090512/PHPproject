@@ -28,12 +28,10 @@ require_once('views/partials/Footertop.php');
       
     </div>
 
-    <!-- <div class="form-group">
       <label class="form-label-wrapper">
         <p class="form-label">Mật khẩu</p>
         <input class="form-input" id="password" type="text" placeholder=""  name="password"  value="<?= md5($success['password']) ?>" required>
       </label>
-    </div> -->
 
     <div class="form-group">
       <label class="form-label-wrapper">

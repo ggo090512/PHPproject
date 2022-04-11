@@ -25,7 +25,6 @@ require_once('views/partials/Footertop.php');
                                 <th>Giá</th>
                                 <th>Số lượng</th>
                                 <th>Tổng cộng</th>
-
                                 <th>Hành động</th>
                             </tr>
                         </thead>

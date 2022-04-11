@@ -46,11 +46,9 @@ require_once('views/partials/Headeruser.php');
                                     </a>
                                 </li>
                                 <li>
-                                    <!-- t chỉ lấy ra duoc 1 cái sản pham cuoi cung ak 
-                                còn 2 cái truoc ko lấy ra duoc -->
-                               
-                                <?php  foreach ($item as  $value) { ?>
-                                   
+                                <!-- t chỉ lấy ra duoc 1 cái sản pham cuoi cung ak 
+                                còn 2 cái truoc ko lấy ra duoc -->                            
+                                <?php  foreach ($item as  $value) { ?>                        
                                         <a href="#"><?=  $value['product_name'] ?>
                                             <span class="middle">x<?= $value['amount'] ?></span>
                                             <span class="last"><?= number_format($value['amount'] * $value['promotionalprice']) ?></span>

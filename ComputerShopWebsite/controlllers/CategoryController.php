@@ -49,15 +49,6 @@ class CategoryController extends AdminController
 	    	$this->redirect('index.php?mod=category&act=index');
 	    }
 
-	    public function detail(){
-	    	$id = $_GET['id'];
-	    	$category= new Category();
-	    	$categories = $category->find($id);
-	    	$this->view('categories/detail.php',[
-	    		'categories' =>$categories,
-	    	]);
-	    }
-
 	    public function edit(){
 	    	$id = $_GET['id'];
 	    	$category= new Category();

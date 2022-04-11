@@ -55,16 +55,9 @@ require_once('views/partials/Headeruser.php');
                     <?= $DetailProduct['content'] ?>
                     <div class="card_area">
                         <a class="main_btn" href="index.php?mod=home&act=listCart&&action=1&msp=<?= $DetailProduct['id'] ?> ">Add to Cart</a>
-                    </div>
-                    <!-- <form class="sign-up-form form" action="index.php?mod=home&act=store" method="POST" role="form" enctype="multipart/form-data">
-                        <input type="hidden" name="id_product" value="">
-                        <input type="number" name="amount" value="1">
-                        <button type="submit" class="form-btn primary-default-btn transparent-btn">Thêm danh mục</button>
-
-                    </form> -->
+                    </div>                            
                 </div>
             </div>
-
         </div>
     </div>
 </div>

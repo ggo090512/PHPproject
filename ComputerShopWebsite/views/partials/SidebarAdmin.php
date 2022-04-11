@@ -3,7 +3,6 @@
         <div class="sidebar-head">
             <a href="/" class="logo-wrapper" title="Home">
                 <span class="sr-only">Home</span>
-                <!--span class="icon logo" aria-hidden="true"></!--span-->
                 <div class="logo-text">
                     <span class="logo-title">Toco-Toco</span>
                     <span class="logo-subtitle">Trang Quản lý</span>

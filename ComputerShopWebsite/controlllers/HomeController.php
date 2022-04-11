@@ -101,8 +101,6 @@ class HomeController extends BaseController
 	// danh sach category trên footer
 	public function listCart()
 	{
-		// session_destroy();
-		// 	die();
 		if (isset($_GET['action'])) {
 			$action = $_GET['action'];
 		}

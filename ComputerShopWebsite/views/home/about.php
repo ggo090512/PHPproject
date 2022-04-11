@@ -1,8 +1,6 @@
 <?php
 require_once('views/partials/Headeruser.php');
 ?>
-
-
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-lg-6">
@@ -23,8 +21,7 @@ require_once('views/partials/Headeruser.php');
 				<h2><span style="font-size:18px;">TocoToco cam kết:</span></h2>
 				<p><span style="font-size:18px;"><span style="color:#008000;"><strong>- SẢM PHẨM CHÍNH HÃNG</strong></span> (fake hoàn 100% tiền trong bất cứ thời điểm nào)</span></p>
 			
-			</div>
-			
+			</div>		
 		</div>
 	</div>
 	<section class="feature-area section_gap_bottom_custom">
@@ -72,9 +69,7 @@ require_once('views/partials/Headeruser.php');
       </div>
     </div>
   </section>
-	
 </div>
-
 
 <?php
 require_once('views/partials/Footeruser.php');

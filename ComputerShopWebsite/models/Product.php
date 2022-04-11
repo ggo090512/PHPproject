@@ -128,13 +128,7 @@ class Product extends Query
 
 		// Thực thi câu lệnh
 		$result =  $this->conn->query($query);
-		// var_dump($result->num_rows);
-		// die();
 		// Trả về 1 bản ghi
-		//$row = $result->fetch_assoc();
-
-		
-
 		return $result->num_rows ;
 	}
 }

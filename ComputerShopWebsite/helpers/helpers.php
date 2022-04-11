@@ -19,11 +19,6 @@ function listcategories()
 	$categorymodel = new Category();
 	$ProductModel = new Product();
 	$categories = $categorymodel->getList();
-
-	// foreach ($categories as $category) {
-
-	// 	$category['sum'] = $ProductModel->getSum($category['id']);
-	// }
 	return $categories;
 }
 

@@ -66,8 +66,6 @@ class Query
 		$status = $this->conn->query($query);
 		$lastid = mysqli_insert_id($this->conn); 
 	
-		// var_dump($status);
-        // die();
 	
 		return $lastid;
 	}
@@ -194,8 +192,6 @@ class Query
 		}
 		$values = trim($values, ',');
 		$query =  "UPDATE " . $this->table . " SET " . $values . " WHERE id = '" . $data['id'] . "' ";
-		// echo $query;
-		// die();
 		return $this->conn->query($query);
 	}
 
@@ -217,15 +213,10 @@ class Query
 	protected function getCartByUsername($table, $id)
 	{
 		$query = "SELECT * from $table WHERE user_id = " . $id;
-	
-		// var_dump($query);
-		// die();
 		// Thực thi câu lệnh
 		$result =  $this->conn->query($query);
-
 		// Trả về 1 bản ghi
 		$row = $result->fetch_assoc();
-
 		return $row;
 	}
 }

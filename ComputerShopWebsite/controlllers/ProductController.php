@@ -135,7 +135,6 @@ class ProductController extends AdminController
 		if ($update) {
 			setcookie('update', 'Cập nhật thành công', time() + 1);
 		}
-		// $this->redirect('index.php?mod=category&act=list');
 		header('Location:index.php?mod=product&act=index');
 	}
 

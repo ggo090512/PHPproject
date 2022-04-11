@@ -19,10 +19,6 @@ require_once('views/partials/Footertop.php');
     <input type="hidden" class="form-control" id="" placeholder="" name="id"
     value="<?= $success['id'] ?>">
   </div>
-
- 
-
-
 <button type="submit" class="form-btn primary-default-btn transparent-btn">Cập nhật danh mục</button>
 
 </form>

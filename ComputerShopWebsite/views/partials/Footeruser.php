@@ -6,10 +6,10 @@
         <ul>
           <li><a href="#">CÔNG TY TNHH THƯƠNG MẠI TOCO-TOCO</a></li>
           <li><a href="#">
-              <p><i class="fa fa-map-marker"></i> Đường TCH10, phường Tân Chánh Hiệp - Quận 12 - TP Hồ Chí Minh</p>
+              <p><i class="fa fa-map-marker"></i> Đường Thành Thái, phường 14 - Quận 10 - TP Hồ Chí Minh</p>
             </a></li>
           <li><a href="#">
-              <p><i class="fa fa-phone"></i> 0336 418 838 - 09 7830 3446</p>
+              <p><i class="fa fa-phone"></i> 0336 482 838 - 09 7302 3446</p>
             </a></li>
           <li><a href="#">
               <p><i class="fa fa-envelope"></i> long7400@gmail.com</p>
